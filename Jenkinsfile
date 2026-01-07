@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE = "yourdockerhubusername/docker-jenkins-demo"
+        IMAGE = "sagar1003/docker-jenkins-demo"
     }
 
     stages {
@@ -40,3 +40,4 @@ pipeline {
         }
     }
 }
+
